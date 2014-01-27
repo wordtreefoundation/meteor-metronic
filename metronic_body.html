@@ -1,0 +1,2122 @@
+<template name="metronicBody">
+  <!-- BEGIN HEADER -->
+  <div class="header navbar navbar-inverse navbar-fixed-top">
+    <!-- BEGIN TOP NAVIGATION BAR -->
+    <div class="header-inner">
+      <!-- BEGIN LOGO -->
+      <a class="navbar-brand wordtree" href="index.html">
+      <img src="/assets/img/logo-med.png" alt="WordTree logo" class="img-responsive"/>
+      </a>
+      <!-- END LOGO -->
+      <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+      <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <img src="/assets/img/menu-toggler.png" alt=""/>
+      </a>
+      <!-- END RESPONSIVE MENU TOGGLER -->
+      <!-- BEGIN TOP NAVIGATION MENU -->
+      <ul class="nav navbar-nav pull-right">
+        <!-- BEGIN NOTIFICATION DROPDOWN -->
+        <li class="dropdown" id="header_notification_bar">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+          <i class="fa fa-warning"></i>
+          <span class="badge">
+            6
+          </span>
+          </a>
+          <ul class="dropdown-menu extended notification">
+            <li>
+              <p>
+                You have 14 new notifications
+              </p>
+            </li>
+            <li>
+              <ul class="dropdown-menu-list scroller" style="height: 250px;">
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-success">
+                    <i class="fa fa-plus"></i>
+                  </span>
+                   New user registered.
+                  <span class="time">
+                    Just now
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-danger">
+                    <i class="fa fa-bolt"></i>
+                  </span>
+                   Server #12 overloaded.
+                  <span class="time">
+                    15 mins
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-warning">
+                    <i class="fa fa-bell-o"></i>
+                  </span>
+                   Server #2 not responding.
+                  <span class="time">
+                    22 mins
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-info">
+                    <i class="fa fa-bullhorn"></i>
+                  </span>
+                   Application error.
+                  <span class="time">
+                    40 mins
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-danger">
+                    <i class="fa fa-bolt"></i>
+                  </span>
+                   Database overloaded 68%.
+                  <span class="time">
+                    2 hrs
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-danger">
+                    <i class="fa fa-bolt"></i>
+                  </span>
+                   2 user IP blocked.
+                  <span class="time">
+                    5 hrs
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-warning">
+                    <i class="fa fa-bell-o"></i>
+                  </span>
+                   Storage Server #4 not responding.
+                  <span class="time">
+                    45 mins
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-info">
+                    <i class="fa fa-bullhorn"></i>
+                  </span>
+                   System Error.
+                  <span class="time">
+                    55 mins
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="label label-sm label-icon label-danger">
+                    <i class="fa fa-bolt"></i>
+                  </span>
+                   Database overloaded 68%.
+                  <span class="time">
+                    2 hrs
+                  </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="external">
+              <a href="#">See all notifications <i class="m-icon-swapright"></i></a>
+            </li>
+          </ul>
+        </li>
+        <!-- END NOTIFICATION DROPDOWN -->
+        <!-- BEGIN INBOX DROPDOWN -->
+        <li class="dropdown" id="header_inbox_bar">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+          <i class="fa fa-envelope"></i>
+          <span class="badge">
+            5
+          </span>
+          </a>
+          <ul class="dropdown-menu extended inbox">
+            <li>
+              <p>
+                You have 12 new messages
+              </p>
+            </li>
+            <li>
+              <ul class="dropdown-menu-list scroller" style="height: 250px;">
+                <li>
+                  <a href="#">
+                  <span class="photo">
+                    <img src="/assets/img/avatar2.jpg" alt=""/>
+                  </span>
+                  <span class="subject">
+                    <span class="from">
+                      Lisa Wong
+                    </span>
+                    <span class="time">
+                      Just Now
+                    </span>
+                  </span>
+                  <span class="message">
+                     Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh...
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="photo">
+                    <img src="/assets/img/avatar3.jpg" alt=""/>
+                  </span>
+                  <span class="subject">
+                    <span class="from">
+                      Richard Doe
+                    </span>
+                    <span class="time">
+                      16 mins
+                    </span>
+                  </span>
+                  <span class="message">
+                     Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh...
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="photo">
+                    <img src="/assets/img/avatar1.jpg" alt=""/>
+                  </span>
+                  <span class="subject">
+                    <span class="from">
+                      Chris Johnson
+                    </span>
+                    <span class="time">
+                      2 hrs
+                    </span>
+                  </span>
+                  <span class="message">
+                     Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh...
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="photo">
+                    <img src="/assets/img/avatar2.jpg" alt=""/>
+                  </span>
+                  <span class="subject">
+                    <span class="from">
+                      Lisa Wong
+                    </span>
+                    <span class="time">
+                      40 mins
+                    </span>
+                  </span>
+                  <span class="message">
+                     Vivamus sed auctor 40% nibh congue nibh...
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="photo">
+                    <img src="/assets/img/avatar3.jpg" alt=""/>
+                  </span>
+                  <span class="subject">
+                    <span class="from">
+                      Richard Doe
+                    </span>
+                    <span class="time">
+                      46 mins
+                    </span>
+                  </span>
+                  <span class="message">
+                     Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh...
+                  </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="external">
+              <a href="#">See all messages <i class="m-icon-swapright"></i></a>
+            </li>
+          </ul>
+        </li>
+        <!-- END INBOX DROPDOWN -->
+        <!-- BEGIN TODO DROPDOWN -->
+        <li class="dropdown" id="header_task_bar">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+          <i class="fa fa-tasks"></i>
+          <span class="badge">
+            5
+          </span>
+          </a>
+          <ul class="dropdown-menu extended tasks">
+            <li>
+              <p>
+                Current Process Queue
+              </p>
+            </li>
+            <li>
+              <ul class="dropdown-menu-list scroller" style="height: 250px;">
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Processing 1828 Book of Mormon
+                    </span>
+                    <span class="percent">
+                      30%
+                    </span>
+                  </span>
+                  <span class="progress">
+                    <span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        40% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Sorting SpaldingMS.txt 4-grams
+                    </span>
+                    <span class="percent">
+                      65%
+                    </span>
+                  </span>
+                  <span class="progress progress-striped">
+                    <span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        65% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Processing Phylogenetics
+                    </span>
+                    <span class="percent">
+                      98%
+                    </span>
+                  </span>
+                  <span class="progress">
+                    <span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        98% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Processing The Late Wa...
+                    </span>
+                    <span class="percent">
+                      10%
+                    </span>
+                  </span>
+                  <span class="progress progress-striped">
+                    <span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        10% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Correlating BOM N-grams
+                    </span>
+                    <span class="percent">
+                      58%
+                    </span>
+                  </span>
+                  <span class="progress progress-striped">
+                    <span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        58% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Processing Lord of the...
+                    </span>
+                    <span class="percent">
+                      85%
+                    </span>
+                  </span>
+                  <span class="progress progress-striped">
+                    <span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        85% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span class="task">
+                    <span class="desc">
+                      Processing 1820s Collection
+                    </span>
+                    <span class="percent">
+                      18%
+                    </span>
+                  </span>
+                  <span class="progress progress-striped">
+                    <span style="width: 18%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">
+                        18% Complete
+                      </span>
+                    </span>
+                  </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="external">
+              <a href="#">See all processes <i class="m-icon-swapright"></i></a>
+            </li>
+          </ul>
+        </li>
+        <!-- END TODO DROPDOWN -->
+        <!-- BEGIN USER LOGIN DROPDOWN -->
+        <li class="dropdown user">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+          <img alt="" src="/assets/img/avatar1_small.jpg"/>
+          <span class="username">
+            Chris Johnson
+          </span>
+          <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#"><i class="fa fa-user"></i> My Profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-calendar"></i> My Calendar</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-envelope"></i> My Inbox
+              <span class="badge badge-danger">
+                3
+              </span>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-tasks"></i> My Tasks
+              <span class="badge badge-success">
+                7
+              </span>
+              </a>
+            </li>
+            <li class="divider">
+            </li>
+            <li>
+              <a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-move"></i> Full Screen</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-lock"></i> Lock Screen</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-key"></i> Log Out</a>
+            </li>
+          </ul>
+        </li>
+        <!-- END USER LOGIN DROPDOWN -->
+      </ul>
+      <!-- END TOP NAVIGATION MENU -->
+    </div>
+    <!-- END TOP NAVIGATION BAR -->
+  </div>
+  <!-- END HEADER -->
+  <div class="clearfix">
+  </div>
+  <!-- BEGIN CONTAINER -->
+  <div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <div class="page-sidebar-wrapper">
+      <div class="page-sidebar navbar-collapse collapse">
+        <!-- BEGIN SIDEBAR MENU -->
+        <ul class="page-sidebar-menu">
+          <li class="sidebar-toggler-wrapper">
+            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+            <div class="sidebar-toggler hidden-phone">
+            </div>
+            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+          </li>
+          <li class="sidebar-search-wrapper">
+            <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+            <form class="sidebar-search" action="#" method="POST">
+              <div class="form-container">
+                <div class="input-box">
+                  <a href="javascript:;" class="remove"></a>
+                  <input type="text" placeholder="Search..."/>
+                  <input type="button" class="submit" value=" "/>
+                </div>
+              </div>
+            </form>
+            <!-- END RESPONSIVE QUICK SEARCH FORM -->
+          </li>
+          <li class="start active ">
+            <a href="index.html">
+            <i class="fa fa-home"></i>
+            <span class="title">
+              Dashboard
+            </span>
+            <span class="selected">
+            </span>
+            </a>
+          </li>
+          <li class="">
+            <a href="javascript:;">
+            <i class="fa fa-flask"></i>
+            <span class="title">
+              Experiments
+            </span>
+            <span class="arrow ">
+            </span>
+            </a>
+            <ul class="sub-menu">
+              <li>
+                <a href="#">
+                <span class="badge badge-roundless badge-important">
+                  new
+                </span>
+                Spalding Frequency</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="badge badge-roundless badge-important">
+                  new
+                </span>
+                Jockers &amp; Criddle</a>
+              </li>
+              <li>
+                <a href="#">
+                Late War</a>
+              </li>
+              <li>
+                <a href="#">
+                New Testament</a>
+              </li>
+              <li>
+                <a href="#">
+                Koran 1822</a>
+              </li>
+              <li>
+                <a href="#">
+                1700s Test</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="badge badge-roundless badge-important">
+                  new
+                </span>
+                JRRT Test</a>
+              </li>
+              <li>
+                <a href="#">
+                American Revolution</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="badge badge-roundless badge-success">
+                  new
+                </span>
+                RT Test</a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="javascript:;">
+            <i class="fa fa-sitemap"></i>
+            <span class="title">
+              Explore Relationships
+            </span>
+            <span class="arrow ">
+            </span>
+            </a>
+            <ul class="sub-menu">
+              <li>
+                <a href="#">
+                BOM vs All</a>
+              </li>
+              <li>
+                <a href="#">
+                Lord of the Rings</a>
+              </li>
+              <li>
+                <a href="#">
+                Spalding vs All</a>
+              </li>
+              <li>
+                <a href="#">
+                Browse 1800s</a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="javascript:;">
+            <i class="fa fa-table"></i>
+            <span class="title">
+              My Bookshelf
+            </span>
+            <span class="arrow ">
+            </span>
+            </a>
+            <ul class="sub-menu">
+              <li>
+                <a href="#">
+                Collection 1</a>
+              </li>
+              <li>
+                <a href="#">
+                Collection 2</a>
+              </li>
+              <li>
+                <a href="#">
+                1800s Books</a>
+              </li>
+            </ul>
+          </li>
+          <li class="last ">
+            <a href="#">
+            <i class="fa fa-bar-chart-o"></i>
+            <span class="title">
+              Visual Charts
+            </span>
+            </a>
+          </li>
+          <li class="">
+            <a href="javascript:;">
+            <i class="fa fa-tags"></i>
+            <span class="title">
+              Tagged Collections
+            </span>
+            <span class="arrow ">
+            </span>
+            </a>
+            <ul class="sub-menu">
+              <li>
+                <a href="#">
+                Collection 1</a>
+              </li>
+              <li>
+                <a href="#">
+                Collection 2</a>
+              </li>
+              <li>
+                <a href="#">
+                1800s Books</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- END SIDEBAR MENU -->
+      </div>
+    </div>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+      <div class="page-content">
+        <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+        <div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                 Widget settings form goes here
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn blue">Save changes</button>
+                <button type="button" class="btn default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+        <!-- BEGIN STYLE CUSTOMIZER -->
+        <!--<div class="theme-panel hidden-xs hidden-sm">
+          <div class="toggler">
+          </div>
+          <div class="toggler-close">
+          </div>
+          <div class="theme-options">
+            <div class="theme-option theme-colors clearfix">
+              <span>
+                Change Settings
+              </span>
+              </div>
+            <div class="theme-option">
+              <span>
+                Option 1
+              </span>
+              <select class="layout-option form-control input-small">
+                <option value="fluid" selected="selected">Fluid</option>
+                <option value="boxed">Boxed</option>
+              </select>
+            </div>
+            <div class="theme-option">
+              <span>
+                Header
+              </span>
+              <select class="header-option form-control input-small">
+                <option value="fixed" selected="selected">Fixed</option>
+                <option value="default">Default</option>
+              </select>
+            </div>
+            <div class="theme-option">
+              <span>
+                Sidebar
+              </span>
+              <select class="sidebar-option form-control input-small">
+                <option value="fixed">Fixed</option>
+                <option value="default" selected="selected">Default</option>
+              </select>
+            </div>
+            <div class="theme-option">
+              <span>
+                Sidebar Position
+              </span>
+              <select class="sidebar-pos-option form-control input-small">
+                <option value="left" selected="selected">Left</option>
+                <option value="right">Right</option>
+              </select>
+            </div>
+            <div class="theme-option">
+              <span>
+                Footer
+              </span>
+              <select class="footer-option form-control input-small">
+                <option value="fixed">Fixed</option>
+                <option value="default" selected="selected">Default</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+        -->
+        <!-- END STYLE CUSTOMIZER -->
+        <!-- BEGIN PAGE HEADER-->
+        <div class="row">
+          <div class="col-md-12">
+            
+            <!--<h3 class="page-title">
+            Dashboard <small>statistics and more</small>
+            </h3>-->
+            <ul class="page-breadcrumb breadcrumb">
+              <li>
+                <i class="fa fa-home"></i>
+                <a href="index.html">Home</a>
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                <a href="#">Dashboard</a>
+              </li>
+              <li class="pull-right">
+                <div id="dashboard-report-range" class="dashboard-date-range tooltips" data-placement="top" data-original-title="Change dashboard date range">
+                  <i class="fa fa-calendar"></i>
+                  <span>
+                  </span>
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <!-- END PAGE HEADER-->
+        <!-- BEGIN DASHBOARD STATS -->
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat green">
+              <div class="visual">
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="details">
+                <div class="number">
+                   1349
+                </div>
+                <div class="desc">
+                   User Books
+                </div>
+              </div>
+              <a class="more" href="#">
+              Upload a book <i class="m-icon-swapright m-icon-white"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat blue">
+              <div class="visual">
+                <i class="fa fa-flask"></i>
+              </div>
+              <div class="details">
+                <div class="number">
+                  549
+                </div>
+                <div class="desc">
+                  User Experiments
+                </div>
+              </div>
+              <a class="more" href="#">
+              Add new experiment <i class="m-icon-swapright m-icon-white"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat black">
+              <div class="visual">
+                <i class="fa fa-tags"></i>
+              </div>
+              <div class="details">
+                <div class="number">
+                  125
+                </div>
+                <div class="desc">
+                  Tagged Book Collections
+                </div>
+              </div>
+              <a class="more" href="#">
+              View Tagged Collections <i class="m-icon-swapright m-icon-white"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat black">
+              <div class="visual">
+                <i class="fa fa-bar-chart-o"></i>
+              </div>
+              <div class="details">
+                <div class="number">
+                  145.6M
+                </div>
+                <div class="desc">
+                  Total N-Grams
+                </div>
+              </div>
+              <a class="more" href="#">
+              View more <i class="m-icon-swapright m-icon-white"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END DASHBOARD STATS -->
+        <div class="clearfix">
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet solid bordered light-grey">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-bar-chart-o"></i>N-Gram Frequency
+                </div>
+                <div class="tools">
+                  <div class="btn-group" data-toggle="buttons">
+                    <label class="btn default btn-sm active">
+                    <input type="radio" name="options" class="toggle" id="option1">Per Book </label>
+                    <label class="btn default btn-sm">
+                    <input type="radio" name="options" class="toggle" id="option2">Per Year </label>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div id="site_statistics_loading">
+                  <img src="/assets/img/loading.gif" alt="loading"/>
+                </div>
+                <div id="site_statistics_content" class="display-none">
+                  <div id="site_statistics" class="chart">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PORTLET-->
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet solid light-grey bordered">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-bullhorn"></i>Activities
+                </div>
+                <div class="tools">
+                  <div class="btn-group pull-right" data-toggle="buttons">
+                    <a href="" class="btn blue btn-sm active">Users</a>
+                    <a href="" class="btn blue btn-sm">Experiments</a>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div id="site_activities_loading">
+                  <img src="/assets/img/loading.gif" alt="loading"/>
+                </div>
+                <div id="site_activities_content" class="display-none">
+                  <div id="site_activities" style="height: 100px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PORTLET-->
+            <!-- BEGIN PORTLET-->
+            <div class="portlet solid bordered light-grey">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-signal"></i>Server Load
+                </div>
+                <div class="tools">
+                  <div class="btn-group pull-right" data-toggle="buttons">
+                    <a href="" class="btn red btn-sm active">Database</a>
+                    <a href="" class="btn red btn-sm">Web</a>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div id="load_statistics_loading">
+                  <img src="/assets/img/loading.gif" alt="loading"/>
+                </div>
+                <div id="load_statistics_content" class="display-none">
+                  <div id="load_statistics" style="height: 108px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PORTLET-->
+          </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="row ">
+          <div class="col-md-6 col-sm-6">
+            <div class="portlet box blue">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-calendar"></i>Experiment Details
+                </div>
+                <div class="actions">
+                  <a href="javascript:;" class="btn btn-sm yellow easy-pie-chart-reload"><i class="fa fa-repeat"></i> Reload</a>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="easy-pie-chart">
+                      <div class="number transactions" data-percent="55">
+                        <span>
+                          +55
+                        </span>
+                        %
+                      </div>
+                      <a class="title" href="#">Storage <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                  <div class="margin-bottom-10 visible-sm">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="easy-pie-chart">
+                      <div class="number visits" data-percent="85">
+                        <span>
+                          +85
+                        </span>
+                        %
+                      </div>
+                      <a class="title" href="#">Queued <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                  <div class="margin-bottom-10 visible-sm">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="easy-pie-chart">
+                      <div class="number bounce" data-percent="46">
+                        <span>
+                          6
+                        </span>
+                        %
+                      </div>
+                      <a class="title" href="#">Correlations <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="portlet box blue">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-calendar"></i>Server Stats
+                </div>
+                <div class="tools">
+                  <a href="" class="collapse"></a>
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                  <a href="" class="reload"></a>
+                  <a href="" class="remove"></a>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="sparkline-chart">
+                      <div class="number" id="sparkline_bar">
+                      </div>
+                      <a class="title" href="#">Network <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                  <div class="margin-bottom-10 visible-sm">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="sparkline-chart">
+                      <div class="number" id="sparkline_bar2">
+                      </div>
+                      <a class="title" href="#">CPU Load <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                  <div class="margin-bottom-10 visible-sm">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="sparkline-chart">
+                      <div class="number" id="sparkline_line">
+                      </div>
+                      <a class="title" href="#">Load Rate <i class="m-icon-swapright"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="row ">
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN REGIONAL STATS PORTLET-->
+            <div class="portlet">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-globe"></i>Regional Stats
+                </div>
+                <div class="tools">
+                  <a href="" class="collapse"></a>
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                  <a href="" class="reload"></a>
+                  <a href="" class="remove"></a>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <div id="region_statistics_loading">
+                  <img src="/assets/img/loading.gif" alt="loading"/>
+                </div>
+                <div id="region_statistics_content" class="display-none">
+                  <div class="btn-toolbar margin-bottom-10">
+                    <div class="btn-group" data-toggle="buttons">
+                      <a href="" class="btn default btn-sm active">Users</a>
+                      <a href="" class="btn default btn-sm">Experiments</a>
+                    </div>
+                    <div class="btn-group pull-right">
+                      <a href="" class="btn default btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                      Select Region
+                      <span class="fa fa-angle-down">
+                      </span>
+                      </a>
+                      <ul class="dropdown-menu pull-right">
+                        <li>
+                          <a href="javascript:;" id="regional_stat_world">World</a>
+                        </li>
+                        <li>
+                          <a href="javascript:;" id="regional_stat_usa">USA</a>
+                        </li>
+                        <li>
+                          <a href="javascript:;" id="regional_stat_europe">Europe</a>
+                        </li>
+                        <li>
+                          <a href="javascript:;" id="regional_stat_russia">Russia</a>
+                        </li>
+                        <li>
+                          <a href="javascript:;" id="regional_stat_germany">Germany</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div id="vmap_world" class="vmaps display-none">
+                  </div>
+                  <div id="vmap_usa" class="vmaps display-none">
+                  </div>
+                  <div id="vmap_europe" class="vmaps display-none">
+                  </div>
+                  <div id="vmap_russia" class="vmaps display-none">
+                  </div>
+                  <div id="vmap_germany" class="vmaps display-none">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END REGIONAL STATS PORTLET-->
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet paddingless">
+              <div class="portlet-title line">
+                <div class="caption">
+                  <i class="fa fa-bell-o"></i>Feeds
+                </div>
+                <div class="tools">
+                  <a href="" class="collapse"></a>
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                  <a href="" class="reload"></a>
+                  <a href="" class="remove"></a>
+                </div>
+              </div>
+              <div class="portlet-body">
+                <!--BEGIN TABS-->
+                <div class="tabbable tabbable-custom">
+                  <ul class="nav nav-tabs">
+                    <li class="active">
+                      <a href="#tab_1_1" data-toggle="tab">System</a>
+                    </li>
+                    <li>
+                      <a href="#tab_1_2" data-toggle="tab">Activities</a>
+                    </li>
+                    <li>
+                      <a href="#tab_1_3" data-toggle="tab">Recent Users</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_1_1">
+                      <div class="scroller" style="height: 290px;" data-always-visible="1" data-rail-visible="0">
+                        <ul class="feeds">
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     You have 4 pending tasks.
+                                    <span class="label label-sm label-danger ">
+                                       Take action <i class="fa fa-share"></i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New version v1.4 just lunched!
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 20 mins
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-danger">
+                                    <i class="fa fa-bolt"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     Database server #12 overloaded. Please fix the issue.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 24 mins
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 30 mins
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 40 mins
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-warning">
+                                    <i class="fa fa-plus"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 1.5 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     Web server hardware needs to be upgraded.
+                                    <span class="label label-sm label-default ">
+                                      Overdue
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 2 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-default">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 3 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-warning">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 5 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 18 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-default">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 21 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 22 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-default">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 21 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 22 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-default">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 21 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 22 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-default">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 21 hours
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-info">
+                                    <i class="fa fa-bullhorn"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received. Processing...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 22 hours
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tab_1_2">
+                      <div class="scroller" style="height: 290px;" data-always-visible="1" data-rail-visible1="1">
+                        <ul class="feeds">
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New upload received
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 10 mins
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-danger">
+                                    <i class="fa fa-bolt"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     Order #24DOP4 has been rejected.
+                                    <span class="label label-sm label-danger ">
+                                      Take action <i class="fa fa-share"></i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 24 mins
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                            <div class="col1">
+                              <div class="cont">
+                                <div class="cont-col1">
+                                  <div class="label label-sm label-success">
+                                    <i class="fa fa-bell-o"></i>
+                                  </div>
+                                </div>
+                                <div class="cont-col2">
+                                  <div class="desc">
+                                     New user registered
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col2">
+                              <div class="date">
+                                 Just now
+                              </div>
+                            </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tab_1_3">
+                      <div class="scroller" style="height: 290px;" data-always-visible="1" data-rail-visible1="1">
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Robert Nilson</a>
+                                <span class="label label-sm label-success label-mini">
+                                  Approved
+                                </span>
+                              </div>
+                              <div>
+                                29 Jan 2013 10:45AM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 10:45AM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Eric Kim</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 12:45PM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-danger">
+                                  In progress
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 11:55PM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Eric Kim</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 12:45PM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-danger">
+                                  In progress
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 11:55PM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Eric Kim</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 12:45PM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-danger">
+                                  In progress
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 11:55PM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Eric Kim</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 12:45PM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-danger">
+                                  In progress
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 11:55PM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Eric Kim</a>
+                                <span class="label label-sm label-info">
+                                  Pending
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 12:45PM
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 user-info">
+                            <img alt="" src="/assets/img/avatar.png" class="img-responsive"/>
+                            <div class="details">
+                              <div>
+                                <a href="#">Lisa Miller</a>
+                                <span class="label label-sm label-danger">
+                                  In progress
+                                </span>
+                              </div>
+                              <div>
+                                19 Jan 2013 11:55PM
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--END TABS-->
+              </div>
+            </div>
+            <!-- END PORTLET-->
+          </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="row ">
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet box blue calendar">
+              <div class="portlet-title">
+                <div class="caption">
+                  <i class="fa fa-calendar"></i>Calendar
+                </div>
+              </div>
+              <div class="portlet-body light-grey">
+                <div id="calendar">
+                </div>
+              </div>
+            </div>
+            <!-- END PORTLET-->
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet">
+              <div class="portlet-title line">
+                <div class="caption">
+                  <i class="fa fa-comments"></i>Chats
+                </div>
+                <div class="tools">
+                  <a href="" class="collapse"></a>
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                  <a href="" class="reload"></a>
+                  <a href="" class="remove"></a>
+                </div>
+              </div>
+              <div class="portlet-body" id="chats">
+                <div class="scroller" style="height: 435px;" data-always-visible="1" data-rail-visible1="1">
+                  <ul class="chats">
+                    <li class="in">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar1.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Chris Johnson</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="out">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar2.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Lisa Wong</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="in">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar1.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Chris Johnson</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="out">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar3.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Richard Doe</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="in">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar3.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Richard Doe</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="out">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar1.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Chris Johnson</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="in">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar3.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Richard Doe</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </span>
+                      </div>
+                    </li>
+                    <li class="out">
+                      <img class="avatar img-responsive" alt="" src="/assets/img/avatar1.jpg"/>
+                      <div class="message">
+                        <span class="arrow">
+                        </span>
+                        <a href="#" class="name">Chris Johnson</a>
+                        <span class="datetime">
+                          at Jul 25, 2012 11:09
+                        </span>
+                        <span class="body">
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt ut laoreet.
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="chat-form">
+                  <div class="input-cont">
+                    <input class="form-control" type="text" placeholder="Type a message here..."/>
+                  </div>
+                  <div class="btn-cont">
+                    <span class="arrow">
+                    </span>
+                    <a href="" class="btn blue icn-only"><i class="fa fa-check icon-white"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PORTLET-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTENT -->
+  </div>
+  <!-- END CONTAINER -->
+  <!-- BEGIN FOOTER -->
+  <div class="footer">
+    <div class="footer-inner">
+       2014 &copy; WordTree Foundation
+    </div>
+    <div class="footer-tools">
+      <span class="go-top">
+        <i class="fa fa-angle-up"></i>
+      </span>
+    </div>
+  </div>
+  <!-- END FOOTER -->
+</template>
